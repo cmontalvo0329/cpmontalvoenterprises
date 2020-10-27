@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Our Products</title>
+    <link rel=stylesheet type="text/css" href="OurProducts.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  }
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+      }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h1 id="our">Our Products</h1>
+<div class="row">
+  <div class="column">
+    <div class="card"> 
+        <img src="makeup.jpg" alt="lipstick" style="width:100%">
+      <h3>Lipstick</h3>
+      <p>This ultra-creamy formula features a smooth glide, bold colour payoff and medium to full buildable coverage.</p>
+      <p>Our Cream Lipsticks finishes range from semi-lustrous to glossy.</p>
+      <p class="price">$19.99</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+  </div>
+
+     <div class="column">
+    <div class="card">
+        <img src="facial%20wash.jpg" alt="face" style="width: 100%">
+      <h3>Facial Wash</h3>
+      <p>Our Facial Wash is rich, nutritious and will clean, nourish, and feed your skin with certified organic ingredients, including extracts and essential oils, leaving it healthy and beautiful. Excellent for ALL skin types, especially those with sensitive skin. Our product is concentrated so our 4oz bottle is equivalent to 8oz of other products. Gently lathers and rinses clean with skin soothing ingredients, without leaving build-up, stripping, drying, or clogging your skin and pores. NO harmful chemicals what-so-ever. No SLS, SLES, parabens, propylene glycol or propylene glycol derivatives, sulfates, dyes, synthetic fragrance or anesthetizing agents. Environmentally friendly. Each bottle is made with biodegradable labels and recycled plastic bottles for a cleaner global environment.</p>
+      <p class="price">$22.99</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+  </div>
+</div>
+    
+  <div class="column">
+    <div class="card">
+        <img src="Vitamin.jpg" alt="multivitamin" style="width: 100%">
+      <h3>Multivitamin</h3>
+      <h5>ENERGY MULTI-VITAMIN IS FORMULATED TO SUPPORT:</h5>
+<p>Bones*
+Vitamin D, boron, calcium and folic acid
+Energy*
+Vitamin B1 (thiamin), B2 (riboflavin), B3 (niacin), B5 (pantothenic acid), B6 and B12 to help convert food into fuel*
+Eyes*
+Vitamin A, C, E, lutein and zinc
+Hair, Skin & Nails*
+Vitamin C and biotin
+Heart*
+Vitamin B6, B12, C, E and folic acid
+Immunity*
+Vitamin A, C, D, selenium and zinc</p>
+      <p class="price">$21.99</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <img src="cleaning%20products.jpg" alt="home" style="width: 100%">
+      <h3>Cleaning Products</h3>
+      <p>Our cleaners are septic safe and can assist you in cleaning common household stains, dirt, and grease. Try our all purpose cleaner that is safe to use on most household surfaces such as ceramic, laminate floor, stainless steel, and more. We also carry specialized cleaners such as granite & stone, glass, tub & tile, and wood cleaners. Our cleaners are Leaping Bunny certified, meaning that we don't test our products on animals. </p>
+      <p class="price">$7.99</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+  </div>
+  
+</body>
+</html>
